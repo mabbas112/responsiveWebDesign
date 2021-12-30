@@ -8,6 +8,22 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+
+    <!-- Nav bas starts -->
+
+    <nav class="navbar">
+        <h1 class="logo">ADVENTURE</h1>
+        <ul class="nav-links">
+            <li><a href=""></a>Home</li>
+            <li><a href=""></a>Tour</li>
+            <li><a href=""></a>Explore</li>
+            <li><a href=""></a>About</li>
+            <li class="cBtn"><a href=""></a>Contact</li>
+        </ul>
+        <img src="/img/menu-btn.png" class="menu-btn" alt="">
+    </nav>
+    <!-- Nav bas ends -->
+    <!-- Header starts -->
     <header>
         <div id="header-content">
             <h2>Explore the colorful world</h2>
@@ -16,8 +32,15 @@
             <a href="" class="cBtn">Learn more</a>
         </div>
     </header>
+    <!-- Header ends -->
 
-
+    <script>
+        const menubtn=document.querySelector('.menu-btn')
+        const navlinks=document.querySelector('.nav-links')
+        menubtn.addEventListener('click',()=>{
+            navlinks.classList.toggle('mobile-menu')
+        })
+    </script>
 
 </body>
 </html>
