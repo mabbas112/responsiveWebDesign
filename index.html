@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,10 +8,10 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
 
     <!-- Nav bas starts -->
-
     <nav class="navbar">
         <h1 class="logo">ADVENTURE</h1>
         <ul class="nav-links">
@@ -34,13 +35,73 @@
     </header>
     <!-- Header ends -->
 
+    <!-- Events start -->
+    <section class="events">
+        <div class="title">
+            <h1>Upcoming Events</h1>
+            <div class="line"></div>
+        </div>
+
+        <!-- Upcoming events -->
+        <div class="row">
+            <!-- Everest camp track -->
+            <div class="col">
+                <img src="/img/img1.png" alt="">
+                <h4>Everest Camp Track</h4>
+                <p>pisicing elit. Eligendi, modi soluta harum nisi sequi maiores facere at delectus earum ratione eaque
+                    culpa expedita dolores unde quaerat tempora iure quidem voluptates.</p>
+                <a href="" class="cBtn">Learn more</a>
+            </div>
+            <!-- Walking Holidays -->
+            <div class="col">
+                <img src="/img/img2.png" alt="">
+                <h4>Walking Holidays</h4>
+                <p>pisicing elit. Eligendi, modi soluta harum nisi sequi maiores facere at delectus earum ratione eaque
+                    culpa expedita dolores unde quaerat tempora iure quidem voluptates.</p>
+                <a href="" class="cBtn">Learn more</a>
+            </div>
+        </div>
+    </section>
+    <!-- Events ends-->
+
+    <!-- Explore the world start -->
+    <section class="explore">
+        <h2>EXPLORE THE WORLD</h2>
+        <div class="line"></div>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero rerum blanditiis molestiae deleniti iste
+            asperiores eius sed aliquam porro. Tempora animi temporibus delectus, itaque nam soluta. Soluta sequi at
+            atque.</p>
+        <a href="" class="cBtn">Learn more</a>
+    </section>
+    <!-- Explore the world end -->
+    <section class="upcomingTour">
+        <section class="tour">
+            <h2>UPCOMING TOURS $ DESTINATTION</h2>
+            <div class="line"></div>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero rerum blanditiis molestiae deleniti iste
+                asperiores eius sed aliquam porro. Tempora animi temporibus delectus, itaque nam soluta. Soluta sequi at
+                atque.</p>
+            <a href="" class="cBtn">Learn more</a>
+        </section>
+        <section class="images">
+            <section class="rows">
+                <img src="/img/img3.png" alt="" class="tourimg">
+                <img src="/img/img4.png" alt="" class="tourimg">
+            </section>
+            <section class="rows">
+                <img src="/img/img5.png" alt="" class="tourimg">
+                <img src="/img/img6.png" alt="" class="tourimg">
+            </section>
+        </section>
+    </section>
     <script>
-        const menubtn=document.querySelector('.menu-btn')
-        const navlinks=document.querySelector('.nav-links')
-        menubtn.addEventListener('click',()=>{
+        const menubtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
+        menubtn.addEventListener('click', () => {
             navlinks.classList.toggle('mobile-menu')
         })
     </script>
 
 </body>
+
 </html>
