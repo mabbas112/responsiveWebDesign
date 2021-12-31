@@ -256,3 +256,24 @@ header{
 
 }
 /* Upcoming tours and destination ends */
+
+
+/* Footer starts */
+.footer{
+    width: 100vw;
+    height: 200px;
+    background-color: #484872;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding: 10px;
+}
+.footer div{
+    text-align: center;
+    margin-right: 10%;
+}
+.footer div p{
+    margin: 10px;
+    font-size: 3vmin;
+}
+/* Footer ends */
