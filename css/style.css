@@ -79,7 +79,7 @@ a{
 header{
     width: 100vw;
     height: 100vh;
-    background-image: url('/img/header-bg.png');
+    background-image: url('/img/header-bg.PNG');
     background-position: bottom;
     background-size: cover;
     display: flex;
