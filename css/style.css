@@ -160,6 +160,8 @@ header{
     .row{
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
     .row .col{
         margin-bottom: 40px;
@@ -266,8 +268,19 @@ header{
     display: flex;
     align-items: flex-end;
     justify-content: flex-end;
+    flex-direction: column;
     padding: 10px;
 }
+.footer div i{
+    background-color:whitesmoke;
+    width: auto;
+    height: auto;
+    padding: 0px 3px;
+    border-radius: 5px;
+    margin: 10px;
+    align-self: flex-start;
+}
+
 .footer div{
     text-align: center;
     margin-right: 10%;
