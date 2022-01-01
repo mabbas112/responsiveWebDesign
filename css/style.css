@@ -172,7 +172,7 @@ header{
 
 /* Explore the world start */
 .explore{
-    background-image: url('/img/bg2.png');
+    background-image: url('../img/bg2.PNG');
     width: 100vw;
     background-position: center;
     background-size: cover;
